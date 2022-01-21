@@ -1,5 +1,3 @@
-
-
 <%@page import="entities.Chambre"%>
 <%@page import="services.ChambreServices"%>
 <%

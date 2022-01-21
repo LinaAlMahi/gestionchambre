@@ -1,9 +1,3 @@
-<%-- 
-    Document   : DispChambre
-    Created on : Jan 19, 2022, 2:48:14 AM
-    Author     : BISSAOUI YASSINE
---%>
-
 <%@page import="services.ChambreServices"%>
 <%@page import="entities.Chambre"%>
 <% 
@@ -53,7 +47,7 @@
                     <h4>Type : <%= u.getType()%></h4>
                     <h4>tarif : <%= u.getTarif()%> Dh</h4>
                
-                        <a class="btn btn-primary me-2" href="ModChambre.jsp?id=<%= u.getIdChambre()%>"  > Reserver</a>
+                        <a class="btn btn-primary me-2" href="MakeRes.jsp?id=<%= u.getIdChambre()%>"  > Reserver</a>
                     
 
                 </div>

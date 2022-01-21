@@ -1,9 +1,3 @@
-<%-- 
-    Document   : Reservation
-    Created on : Jan 13, 2022, 7:41:54 PM
-    Author     : BISSAOUI YASSINE
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

@@ -1,9 +1,3 @@
-<%-- 
-    Document   : MessageAttende
-    Created on : Jan 13, 2022, 5:53:55 PM
-    Author     : BISSAOUI YASSINE
---%>
-
 <% 
     
     if(session.getAttribute("idUser")!=null){

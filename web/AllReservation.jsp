@@ -20,7 +20,7 @@
         <%@ include file="Components/Navbar.jsp"%>
         <div class="container-fluid page-body-wrapper">
 
-            <%@ include file="Components/side1.html"%>
+            <%@ include file="Components/side.html"%>
 
             <div class="main-panel">
                 <div class="content-wrapper">
@@ -28,7 +28,7 @@
                         <div class="col-lg-12 grid-margin stretch-card">
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="card-title">Mes  Reservations</h4>
+                                    <h4 class="card-title">Tout les  Reservations</h4>
                                     <div class="table-responsive">
                                         <table class="table">
                                             <thead>
@@ -46,7 +46,6 @@
                                                 <%   ReservationServices us = new ReservationServices();
                                                     ChambreServices rs = new ChambreServices();
                                                     for (Reservation u : us.findAll()) {
-                                                        if (u.getIdUser() == idUser) {
 
 
                                                 %>
@@ -80,7 +79,7 @@
                                                         </form>
                                                     </td>
                                                 </tr>
-                                                <%}   }
+                                                <%}   
                                                     
                                                     }%>
                                             </tbody>
